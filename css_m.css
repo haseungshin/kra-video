@@ -69,15 +69,17 @@
 }
 
 .locationBtn.active{
+    
+    
     padding-top: 4px;
     margin-top: 7px;
     height: 35px;
-    width: 28%;
+    width: 32%;
     background-color: #e6e6e6;
     border-style:groove;
     border-color: white;
     border-radius: 5px;
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 300;
     /*transition-duration: 0.1s;*/
     cursor: pointer;
