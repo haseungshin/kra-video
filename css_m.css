@@ -62,6 +62,7 @@
     border-radius: 5px;
     font-size: 1em;
     font-weight: 300;
+    /*transition-duration: 0.1s;*/
     cursor: pointer;
     display: inline-block;
     color: #1f1d1d;
@@ -78,7 +79,7 @@
     border-radius: 5px;
     font-size: 1.1em;
     font-weight: 300;
-    transition-duration: 0.1s;
+    /*transition-duration: 0.1s;*/
     cursor: pointer;
     display: inline-block;
     color: #1f1d1d;
