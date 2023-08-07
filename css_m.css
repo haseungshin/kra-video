@@ -15,16 +15,21 @@
 
 
 
+.yt-player-wrapper {
+    width: 100%;
+    height: 38%;  /* 원래 .yt-player-container의 높이와 동일 */
+}
+
 .yt-player-container {
     position: fixed;
     z-index: 1000;
+    top: 0;
     width: 100%;
     height: 38%;
     background-color: whitesmoke;
     display: block;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .calendar-container {
@@ -33,7 +38,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
 .location-buttons-area{
