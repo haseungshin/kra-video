@@ -61,7 +61,7 @@
     transition-duration: 0.1s;
     cursor: pointer;
     display: inline-block;
-    
+    color: #1f1d1d;
 }
 
 .locationBtn.active{
@@ -109,6 +109,7 @@
     margin-right: auto;
     margin-top: 10px;
 }
+
 #result {
     font-family: 'environment';
     font-size: 0.95em;
@@ -118,6 +119,7 @@
     margin-bottom: 0;
     background-color: #ffdeb0;
     border: none;
+    color: #1f1d1d;
 }
 
 .race-buttons-area{
@@ -145,7 +147,7 @@
     border-color: white;
     border-radius: 5px;
     font-size: 0.9em;
-    
+    color: #1f1d1d;
 }
 
 #raceBtn:focus{
@@ -161,6 +163,7 @@
     margin-right: auto;
     text-align: center;
     margin-top: 100px;
+    color: #1f1d1d;
 }
 
 
