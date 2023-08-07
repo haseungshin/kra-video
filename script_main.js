@@ -95,11 +95,11 @@ function changeLocation(loc) {
 
 function raceBtnRenderer(date){
     return new Promise((resolve, reject) => {
-        fetch('data.json') 
+        fetch('data.json?t=' + Date.now()) 
             .then(response => response.json())
             .then(data => {
                 for (let key in data) {
-                      if (key.includes(date)) {         
+                    if (key.includes(date)) {         
                         num = key.split(" ").pop();
                         let videoBtn = document.querySelector(`.raceNumBtn-${num}`); 
                         videoBtn.style.display = 'block'; 
@@ -109,7 +109,7 @@ function raceBtnRenderer(date){
                         console.log('비디오 아이디',videoID);
                         videoBtn.setAttribute('onclick', `changeVideo("${videoID}")`);
                         noRace.style.display = 'none';
-                      }
+                        }
                 }
                 buttons = document.querySelectorAll('[id="raceBtn"]');
                 var selectedButton;
