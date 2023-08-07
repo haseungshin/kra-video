@@ -49,6 +49,7 @@
     margin-right: auto;
     text-align: center;
     font-family: 'environment';
+    background-color: antiquewhite;
     
 }
 
@@ -101,7 +102,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top : 13px;    
+    padding-top : 13px;
+    background-color: antiquewhite;
 }
 
 .calendar-text-area{
@@ -113,6 +115,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
+    background-color: antiquewhite;
 }
 
 #result {
