@@ -1,0 +1,171 @@
+@font-face{
+    font-family: 'environment';
+    src: local('font/environment'), url(font/environment.ttf) format(truetype);
+}
+
+
+
+
+.main-container {
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+
+
+.yt-player-container {
+    width: 100%;
+    height: 30%;
+    background-color: whitesmoke;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+
+}
+
+.calendar-container {
+    width: 100%;
+    background-color: floralwhite;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    
+}
+
+.location-buttons-area{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'environment'
+}
+
+.locationBtn{
+    padding-top: 4px;
+    margin-top: 7px;
+    height: 35px;
+    width: 32%;
+    background-color: #e6e6e6;
+    border-style:groove;
+    border-color: white;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 300;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    display: inline-block;
+    
+}
+
+.locationBtn.active{
+    padding-top: 4px;
+    margin-top: 7px;
+    height: 35px;
+    width: 28%;
+    background-color: #e6e6e6;
+    border-style:groove;
+    border-color: white;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: 300;
+    transition-duration: 0.1s;
+    cursor: pointer;
+    display: inline-block;
+    color: #1f1d1d;
+    background-color: #fcb9c0;
+}
+
+
+
+
+#locationBtn:focus {
+    outline: none;
+}    
+
+.calendar{
+    position: relative;
+    width: 100%;
+    float: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top : 13px;    
+}
+
+.calendar-text-area{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    float: left; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+#result {
+    font-family: 'environment';
+    font-size: 0.95em;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    padding-top: 4px;
+    margin-bottom: 0;
+    background-color: #ffdeb0;
+    border: none;
+}
+
+.race-buttons-area{
+    width: 100%;
+    height: 100%;
+    float: left;
+    clear: left;
+    font-family: 'environment';
+    overflow-y: scroll;
+    padding-top: 10px
+}
+
+
+#raceBtn{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    width: 90%;
+    max-width: 350px;
+    height: 30px;
+    background-color: #e6e6e6;
+    border-style:groove;
+    border-color: white;
+    border-radius: 5px;
+    font-size: 0.9em;
+    
+}
+
+#raceBtn:focus{
+    outline: none;
+}
+
+
+
+
+.noRace{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+.ytplayer{
+    width : 100%;
+    height : 100%;
+}
